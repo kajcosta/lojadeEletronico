@@ -1,0 +1,54 @@
+/* 
+.open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: 
+      width: 100;
+  } */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'opem Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* img{
+    max-width: 1005;
+   } */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+#lupa {
+    padding: auto;
+    width: 50%;
+    height: 50%;
+}
+
+button {
+    border-radius: 5px;
+    align-items: center;
+    width: 5%;
+    height: 5%;
+}
