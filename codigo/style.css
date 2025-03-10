@@ -71,6 +71,7 @@ p {
     width: 85%;
     float: left;
     padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
 }
 
 .cabecalho button {
@@ -80,22 +81,40 @@ p {
     background-color: #00010122;
     color: #ffffff;
     cursor: pointer;
+    border-radius: 0 5px 5px 0;
+     
 }
 
 .menu {
     width: 100%;
     float: left;
-    background-color: #111;
+    background-color: #067B70;
     padding: 18px 8px;
 }
 
-.menu li{
+.menu li {
     float: left;
 }
+
 .menu li a {
     color: #fff;
     margin-left: 25px;
 }
-.menu li a:hover{
-    color:#078e81;
+
+.menu li a:hover {
+    color: #bce5e1;
+}
+
+.socialIcons {
+    float: right;
+    margin-right: 3%;
+}
+
+.socialIcons a {
+    float: left;
+    margin-left: 18px;
+}
+
+.socialIcons a:hover {
+    color: #bce5e1;
 }
