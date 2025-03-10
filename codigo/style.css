@@ -164,7 +164,7 @@ p {
 .newsletter{
     width: 100%;
     float: left;
-    background-color: #04332e;
+    background-color: #054640;
     padding: 50px 8%;
 }
 .newsletter h3{
@@ -198,3 +198,12 @@ p {
         float: right; 
         cursor: pointer;
     }
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #042623;
+    padding: 20px 8%;
+}
+.rodape p{
+    color: #fff;
+}
